@@ -1,4 +1,4 @@
-name: Add need review workflow
+name: Add issue to Enterprise project
 
 on:
   issues:
@@ -16,5 +16,5 @@ jobs:
           # to the issue
           project-url: https://github.com/users/hbulgarini/projects/4
           github-token: ${{ secrets.SUPERSECRET }}
-          labeled: need-review
+          labeled: enterprise
           label-operator: OR
