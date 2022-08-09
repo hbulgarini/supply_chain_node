@@ -15,6 +15,6 @@ jobs:
           # You can target a repository in a different organization
           # to the issue
           project-url: https://github.com/users/hbulgarini/projects/3
-          github-token: ${{ secrets.TESTREPO }}
+          github-token: testtest
           labeled: need-review
           label-operator: OR
